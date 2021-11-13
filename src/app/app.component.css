@@ -1,3 +1,30 @@
-p {
-  font-family: Lato;
+.relative {
+  height: 1000px;
+  width: 1000px;
+  position: relative;
+  margin: 100px auto;
+  background: blue;
+  z-index: auto;
+}
+.absolute {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+}
+.red {
+  top: 0;
+  left: 0;
+  background: red;
+  width: 450px;
+}
+.yellow {
+  top: 0;
+  left: 0;
+  background: yellow;
+}
+.white {
+  top: 0;
+  left: 0;
+  background: white;
+  width: 400px;
 }
